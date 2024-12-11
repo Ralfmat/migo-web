@@ -1,62 +1,58 @@
 /* Base Styles (Mobile First) */
 .business-plan {
-    background-color: #3D518C;
-    color: white;
+    background-color: #D7D9CE;
+    color: #3D518C;
 }
 
 .business-plan > h1 {
     text-align: center;
-    font-weight: 200;
+    font-weight: 300;
     font-size: 2.5rem;
 }
 
 .business-plan > div {
-    background-color: #7692FF;
+    background-color: #D7D9CE;
     color: #1B1F3B;
     border-radius: 1rem;
     padding: 1rem;
     margin-bottom: 1rem;
 }
 
-.customers {
+.section-content > h1 {
+    text-align: center;
+    font-weight: 300;
+    margin-bottom: 3rem;
+    background-color: #3D518C;
+    color: #D7D9CE;
+    border-radius: 1rem;
+    padding: 1rem;
+}
+
+.content-points {
     display: flex;
     flex-direction: column;
 }
 
-.customers > h4 {
+.content-points > h4 {
     text-align: center;
     font-weight: 500;
 }
 
-.customers > div > svg {
+.content-points > div > svg {
     margin-bottom: 1rem;
 }
 
 
-.customers > div {
+.content-points > div {
     display: flex;
     flex-direction: column;
     text-align: center;
     margin-bottom: 3rem;
 }
 
-.customers > div > strong {
-    margin-bottom: 0.5rem;
-}
-
-.business-model {
-    display: flex;
-}
-
 div {
     
     font-weight: 300;
-}
-
-ul {
-    list-style: none;
-    padding:0;
-    margin:0;
 }
   
   /* Larger Screens (e.g., Laptops) */
