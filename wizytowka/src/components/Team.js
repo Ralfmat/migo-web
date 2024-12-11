@@ -4,7 +4,7 @@ import emotka from '../images/emotka.jpg';
 
 const Team = () => (
   <section>
-    <h2>Our Team</h2>
+    <h2>Team</h2>
     
     <div className="team-members">
       <div className="team-member">

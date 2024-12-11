@@ -1,11 +1,10 @@
 import React from 'react';
+import "./Description.css"
 
 const Description = () => (
   <section>
-    <h2>Project Description</h2>
-    <p>Details about the project go here...</p>
+    <h2>Opis projektu</h2>
     <div className=''>
-        <h3>Wprowadzenie</h3>
         <p>
           Nasza aplikacja to nowoczesne narzędzie do nauki języka migowego, które
           wykorzystuje kamerę i sztuczną inteligencję, aby w czasie rzeczywistym
