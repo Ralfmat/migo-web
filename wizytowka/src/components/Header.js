@@ -1,10 +1,12 @@
 import React from 'react';
 import './Header.css';
+import icon from '../images/icon.png';
 
 const Header = () => {
   return (
     <header className="header">
-      <div className="logo">A migo</div>
+      {/* <div className="logo">Migo</div> */}
+      <img src={icon}></img>
       <nav className="navigation">
         <ul>
           <li><a href="#business-plan">Biznes Plan</a></li>
