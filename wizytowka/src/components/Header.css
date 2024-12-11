@@ -1,8 +1,8 @@
-/* Header.css */
 .header {
     position: fixed;
     display: flex;
     align-items: center;
+    top: 0;
     padding: 1rem;
     background-color: #3D518C;
     color: white;
@@ -31,7 +31,7 @@
     flex-grow: 1;
     display: flex;
     justify-content: center;
-    margin-right: 30px;
+    margin-right: 60px;
 }
 
   .navigation a {
@@ -52,12 +52,24 @@
   /* Adjust the gap and alignment as the screen size increases */
 @media (min-width: 768px) {
     .navigation ul {
-      gap: 2rem; /* Increase the gap for larger screens */
-        }
+        gap: 2rem; /* Increase the gap for larger screens */
     }
+}
   
-  @media (min-width: 1024px) {
+@media (min-width: 1024px) {
     .navigation ul {
-      gap: 4rem; /* Further increase the gap for even larger screens */
-        }
+        gap: 4rem; /* Further increase the gap for even larger screens */
     }
+}
+
+@media (max-width: 470px) {
+    .navigation {
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 360px) {
+    .navigation {
+        font-size: 10px;
+    }
+}

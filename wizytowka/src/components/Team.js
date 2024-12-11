@@ -3,7 +3,7 @@ import './Team.css';
 import emotka from '../images/emotka.jpg';
 
 const Team = () => (
-  <section>
+  <section id="team">
     <h2>Team</h2>
     
     <div className="team-members">
