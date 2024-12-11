@@ -1,25 +1,31 @@
-/* App.css */
+/* Base Styles (Mobile First) */
 body {
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
 }
 
-header, section, footer {
-  padding: 20px;
+header, footer {
   text-align: center;
-}
-
-header {
-  background-color: #4CAF50;
-  color: white;
-}
-
-footer {
-  background-color: #333;
-  color: white;
+  padding: 10px;
 }
 
 section {
-  border-bottom: 1px solid #ddd;
+  padding: 10px;
+}
+
+/* Larger Screens (e.g., Laptops) */
+@media (min-width: 768px) {
+  header, footer {
+    text-align: left;
+    padding: 20px;
+  }
+
+  body {
+    background-color: red;
+  }
+
+  section {
+    padding: 20px;
+  }
 }

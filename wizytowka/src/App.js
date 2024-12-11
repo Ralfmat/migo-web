@@ -5,6 +5,8 @@ import Description from './components/Description';
 import Team from './components/Team';
 import Footer from './components/Footer';
 
+import './App.css';
+
 const App = () => {
   return (
     <div>
