@@ -11,9 +11,9 @@ const App = () => {
   return (
     <div>
       <Header />
-      <BusinessPlan />
       <Description />
       <Team />
+      <BusinessPlan />
       <Footer />
     </div>
   );

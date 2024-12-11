@@ -1,8 +1,10 @@
 /* Base Styles (Mobile First) */
 body {
-  font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
+  background-color: #D7D9CE;
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
 }
 
 header, footer {
@@ -23,6 +25,7 @@ section {
 
   body {
     background-color: red;
+    font-size: 20px;
   }
 
   section {

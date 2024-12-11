@@ -1,0 +1,77 @@
+/* Base Styles (Mobile First) */
+.business-plan {
+    background-color: #3D518C;
+    color: white;
+}
+
+.business-plan > h1 {
+    text-align: center;
+    font-weight: 200;
+    font-size: 2.5rem;
+}
+
+.business-plan > div {
+    background-color: #7692FF;
+    color: #1B1F3B;
+    border-radius: 1rem;
+    padding: 1rem;
+    margin-bottom: 1rem;
+}
+
+.customers {
+    display: flex;
+    flex-direction: column;
+}
+
+.customers > h4 {
+    text-align: center;
+    font-weight: 500;
+}
+
+.customers > div > svg {
+    margin-bottom: 1rem;
+}
+
+
+.customers > div {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+.customers > div > strong {
+    margin-bottom: 0.5rem;
+}
+
+.business-model {
+    display: flex;
+}
+
+div {
+    
+    font-weight: 300;
+}
+
+ul {
+    list-style: none;
+    padding:0;
+    margin:0;
+}
+  
+  /* Larger Screens (e.g., Laptops) */
+  @media (min-width: 768px) {
+    header, footer {
+      text-align: left;
+      padding: 20px;
+    }
+  
+    body {
+      background-color: red;
+    }
+  
+    section {
+      padding: 20px;
+    }
+  }
+  
