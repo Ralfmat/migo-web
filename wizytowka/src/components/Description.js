@@ -2,7 +2,7 @@ import React from 'react';
 import "./Description.css"
 
 const Description = () => (
-  <section>
+  <section id="description">
     <h2>Opis projektu</h2>
     <div className=''>
         <p>

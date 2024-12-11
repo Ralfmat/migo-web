@@ -18,6 +18,15 @@ section > h2 {
   font-size: 2.5rem;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
+#team,
+#description,
+#business-plan {
+  scroll-margin-top: 140px;
+}
 
 
 /* Larger Screens (e.g., Laptops) */
@@ -32,6 +41,6 @@ section > h2 {
   }
 
   section {
-    padding: 20px;
+    padding: 60px;
   }
 }
