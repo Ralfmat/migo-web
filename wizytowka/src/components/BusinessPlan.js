@@ -12,7 +12,7 @@ import './BusinessPlan.css';
 
 const BusinessPlan = () => {
   return (
-    <section id="business-plan" className='business-plan'>
+    <section className='business-plan'>
       <h1>Biznesplan</h1>
 
       {/* Market Analysis Section */}

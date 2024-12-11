@@ -1,11 +1,3 @@
-html {
-  scroll-behavior: smooth;
-}
-
-#business-plan {
-  scroll-margin-top: 60px;
-}
-
 /* Base Styles (Mobile First) */
 body {
   margin: 0;
