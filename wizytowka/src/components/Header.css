@@ -8,6 +8,7 @@
     color: white;
     width: 100%;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    z-index: 100;
   }
   
   .logo {
@@ -43,4 +44,15 @@
     text-decoration: underline;
   }
   
+  /* Adjust the gap and alignment as the screen size increases */
+@media (min-width: 768px) {
+    .navigation ul {
+      gap: 2rem; /* Increase the gap for larger screens */
+        }
+    }
   
+  @media (min-width: 1024px) {
+    .navigation ul {
+      gap: 4rem; /* Further increase the gap for even larger screens */
+        }
+    }
