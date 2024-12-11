@@ -1,6 +1,7 @@
 import React from 'react';
-import "./Team.css"
-import emotka from "../images/emotka.jpg"
+import './Team.css';
+import emotka from '../images/emotka.jpg';
+
 const Team = () => (
   <section>
     <h2>Our Team</h2>
@@ -17,7 +18,7 @@ const Team = () => (
       </div>
 
       <div className="team-member">
-        <img src={emotka} alt="aciej Świtalski" />
+        <img src={emotka} alt="Maciej Świtalski" />
         <h3>Maciej Świtalski</h3>
       </div>
 
