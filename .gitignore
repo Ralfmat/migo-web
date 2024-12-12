@@ -30,7 +30,6 @@ coverage
 *.lcov
 
 # Production
-/build
 
 # Misc
 .DS_Store
