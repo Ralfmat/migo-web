@@ -4,7 +4,7 @@ import BusinessPlan from './components/BusinessPlan';
 import Description from './components/Description';
 import Team from './components/Team';
 import Footer from './components/Footer';
-
+import Contact from './components/Contact';
 import './App.css';
 
 const App = () => {
@@ -14,6 +14,7 @@ const App = () => {
       <Description />
       <Team />
       <BusinessPlan />
+      <Contact />
       <Footer />
     </div>
   );

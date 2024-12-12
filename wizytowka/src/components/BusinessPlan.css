@@ -21,7 +21,7 @@
     text-align: center;
     font-weight: 300;
     margin-bottom: 3rem;
-    background-color: rgb(255, 205, 135);
+    background-color: #95C987;
     color: #131010;
     border-radius: 1rem;
     padding: 1rem;
@@ -53,6 +53,10 @@
 div {
     
     font-weight: 300;
+}
+
+.content-item > strong {
+    color: #6cac48;
 }
   
   /* Larger Screens (e.g., Laptops) */
