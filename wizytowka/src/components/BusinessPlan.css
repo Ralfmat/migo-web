@@ -1,17 +1,17 @@
 /* Base Styles (Mobile First) */
 .business-plan {
-    color: #3D518C;
+    color: #131010;
 }
 
 .business-plan > h1 {
     text-align: center;
     font-weight: 300;
-    font-size: 2.5rem;
+    font-size: 4rem;
 }
 
 .business-plan > div {
     /* background-color: #D7D9CE; */
-    color: #1B1F3B;
+    color: #131010;
     border-radius: 1rem;
     padding: 1rem;
     margin-bottom: 1rem;
@@ -21,10 +21,11 @@
     text-align: center;
     font-weight: 300;
     margin-bottom: 3rem;
-    background-color: #435998;
-    color: #D7D9CE;
+    background-color: rgb(255, 205, 135);
+    color: #131010;
     border-radius: 1rem;
     padding: 1rem;
+    font-size: 2rem;
 }
 
 .content-points {
@@ -87,6 +88,17 @@ div {
 
     .section-content > h1 {
         padding: 2rem;
+    }
+
+    .section-content > h1 {
+        text-align: center;
+        font-weight: 300;
+        margin-bottom: 3rem;
+        background-color: transparent;
+        color: #131010;
+        border-radius: 1rem;
+        padding: 1rem;
+        font-size: 3rem;
     }
   }
   

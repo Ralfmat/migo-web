@@ -40,15 +40,15 @@ const BusinessPlan = () => {
         <div className='content-points'>
           <div className='content-item'>
               <FontAwesomeIcon icon={faBookOpen} fontSize={'30'} style={{ marginRight: '10px' }} />
-              <strong>Darmowym dostępie do podstawowych lekcji</strong> co pozwoli zbudować szeroką bazę użytkowników.
+              <strong>Darmowy dostęp do podstawowych lekcji</strong> co pozwoli zbudować szeroką bazę użytkowników.
           </div>
           <div className='content-item'>
               <FontAwesomeIcon icon={faCoins} fontSize={'30'} style={{ marginRight: '10px' }} />
-              <strong>Płatnych lekcjach zaawansowanych</strong> które będą dostępne w formie subskrypcji lub jednorazowych zakupów.
+              <strong>Płatne lekcje dla zaawansowanych</strong> które będą dostępne w formie subskrypcji lub jednorazowych zakupów.
           </div>
           <div className='content-item'>
               <FontAwesomeIcon icon={faHandshake} fontSize={'30'} style={{ marginRight: '10px' }} />
-              <strong>Współpracy z instytucjami edukacyjnymi oraz rządowymi</strong> które mogą wdrożyć aplikację do swoich programów nauczania.
+              <strong>Współpraca z instytucjami edukacyjnymi oraz rządowymi</strong> które mogą wdrożyć aplikację do swoich programów nauczania.
           </div>
         </div>
       </div>
@@ -63,11 +63,11 @@ const BusinessPlan = () => {
           </div>
           <div className='content-item'>
             <FontAwesomeIcon icon={faHandsHelping} fontSize={'30'} style={{ marginRight: '10px' }} />
-            Współpracę z <strong>organizacjami pozarządowymi</strong> i edukatorami, aby promować naukę języka migowego.
+            Współpraca z <strong>organizacjami pozarządowymi</strong> i edukatorami, aby promować naukę języka migowego.
           </div>
           <div className='content-item'>
             <FontAwesomeIcon icon={faGamepad} fontSize={'30'} style={{ marginRight: '10px' }} />
-            Rozbudowę aplikacji o <strong>elementy grywalizacji</strong> które jeszcze bardziej zaangażują użytkowników.
+            Rozbudowa aplikacji o <strong>elementy grywalizacji</strong> które jeszcze bardziej zaangażują użytkowników.
           </div>
           <div className='content-item'>
             <FontAwesomeIcon icon={faRobot} fontSize={'30'} style={{ marginRight: '10px' }} />

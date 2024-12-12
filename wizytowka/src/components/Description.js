@@ -3,7 +3,7 @@ import "./Description.css"
 
 const Description = () => (
   <section id="description">
-    <h2>Opis projektu</h2>
+    <h2>O nas</h2>
     <div className=''>
         <p>
           Nasza aplikacja to nowoczesne narzędzie do nauki języka migowego, które
