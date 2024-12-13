@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/static/css/main.cf3e153e.css",
+    "main.js": "/static/js/main.a1d67bf6.js",
+    "static/media/reka_ee.png": "/static/media/reka_ee.3f12a9e0229995b2b08d.png",
+    "static/media/icon.png": "/static/media/icon.e1399b450f9fc014fcae.png",
+    "static/media/reka.PNG": "/static/media/reka.44152c6cc4c90575aa62.PNG",
+    "static/media/reka_a.png": "/static/media/reka_a.dbdb16c1b6a01c58f86d.png",
+    "static/media/emotka.jpg": "/static/media/emotka.5848214298000cafc957.jpg",
+    "index.html": "/index.html",
+    "main.cf3e153e.css.map": "/static/css/main.cf3e153e.css.map",
+    "main.a1d67bf6.js.map": "/static/js/main.a1d67bf6.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.cf3e153e.css",
+    "static/js/main.a1d67bf6.js"
+  ]
+}
